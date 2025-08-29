@@ -28,13 +28,12 @@ Clone this repository and install the required Node.js packages using npm.
 
 ### 3. Get your user_auth token 🔑
 To get your user_auth token:
-- Open web.telegram.org in your browser and log in
+- Open Tonnel_Network_bot in your browser 
 - Open Developer Tools (F12) and go to Network tab
 - Filter by XHR requests
 - Perform any action in Telegram (like opening a chat)
-- Look for requests to web.telegram.org/k/
+- Look for requests 
 - Find the Authorization header in the request
-- Copy the value after "Bearer " - this is your user_auth token
 
 ### 4. Configure the bot ⚙️
 Edit the config.js file and update these values:
