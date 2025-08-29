@@ -1,0 +1,15 @@
+{
+  "name": "Gift-Parser-Bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that parses TON gift data and sends notifications",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "author": "walqed",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "readline": "^1.3.0"
+  }
+}
