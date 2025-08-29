@@ -32,15 +32,9 @@ To get your user_auth token:
 - Perform any action in the bot (like checking gifts)
 - Open Developer Tools (F12) in your browser on web.telegram.org
 - Go to Network tab and look for "pageGifts" request
-- Click on the pageGifts request → go to "Полезная нагрузка" (Payload)
+- Click on the pageGifts request → go to Payload
 - Find the user_auth parameter - copy this value
-- Use the bot and log in with your account
-- Open Developer Tools (F12) in your browser and go to Network tab
-- Filter by XHR requests
-- Perform any action in the bot (like checking gifts)
-- Look for API requests in the network tab
-- Find the Authorization header in the request
-- Copy the value after "Bearer " - this is your user_auth token
+
 
 ### 4. Configure the bot ⚙️
 Edit the config.js file and update these values:
