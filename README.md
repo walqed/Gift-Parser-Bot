@@ -43,18 +43,6 @@ Edit the config.js file and update these values:
 - **chat_id** - Your personal chat ID (get it by messaging your bot first)
 - **check_interval** - How often to check for new gifts (in seconds)
 
-**Getting your Chat ID:**
-Send any message to your bot, then visit: `https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates` and look for the chat ID number.
-
-### 5. Run the bot 🏃‍♂️
-Execute the main JavaScript file to start the bot.
-
-## ⚠️ Important Notes
-
-- 🔒 **Keep your tokens secure** - Never share them publicly
-- 🔄 **user_auth expires** - You may need to update it periodically
-- 📱 **Stay logged in** - Keep @Tonnel_Network_bot session active for user_auth to work
-- 🚫 **Rate limits** - Don't set check_interval too low to avoid being blocked
 
 ## 🛠️ Requirements
 
@@ -67,10 +55,6 @@ Execute the main JavaScript file to start the bot.
 ## 📝 How it works
 
 The bot uses your user_auth token to access Telegram's internal API and monitors TON gift channels. When new gifts are detected, it immediately sends a notification message to your specified Telegram chat with all the gift details. The bot runs continuously and checks for updates based on your configured interval.
-
-## 🤝 Contributing
-
-Feel free to submit issues and enhancement requests!
 
 ## 📄 License
 
