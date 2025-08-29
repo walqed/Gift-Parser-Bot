@@ -28,12 +28,19 @@ Clone this repository and install the required Node.js packages using npm.
 
 ### 3. Get your user_auth token 🔑
 To get your user_auth token:
-- Open Tonnel_Network_bot in your browser 
-- Open Developer Tools (F12) and go to Network tab
+- Open @Tonnel_Network_bot in Telegram
+- Perform any action in the bot (like checking gifts)
+- Open Developer Tools (F12) in your browser on web.telegram.org
+- Go to Network tab and look for "pageGifts" request
+- Click on the pageGifts request → go to "Полезная нагрузка" (Payload)
+- Find the user_auth parameter - copy this value
+- Use the bot and log in with your account
+- Open Developer Tools (F12) in your browser and go to Network tab
 - Filter by XHR requests
-- Perform any action in Telegram (like opening a chat)
-- Look for requests 
+- Perform any action in the bot (like checking gifts)
+- Look for API requests in the network tab
 - Find the Authorization header in the request
+- Copy the value after "Bearer " - this is your user_auth token
 
 ### 4. Configure the bot ⚙️
 Edit the config.js file and update these values:
@@ -52,7 +59,7 @@ Execute the main JavaScript file to start the bot.
 
 - 🔒 **Keep your tokens secure** - Never share them publicly
 - 🔄 **user_auth expires** - You may need to update it periodically
-- 📱 **Stay logged in** - Keep Telegram Web session active for user_auth to work
+- 📱 **Stay logged in** - Keep @Tonnel_Network_bot session active for user_auth to work
 - 🚫 **Rate limits** - Don't set check_interval too low to avoid being blocked
 
 ## 🛠️ Requirements
